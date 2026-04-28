@@ -2,20 +2,20 @@
 
 require_once "bibliotecaFuncoecs.php";
 
-use function conversao\dolarParaReal;
-echo "Dolar Para Real: ", dolarparaReal (10, 5);
+use function geometria\areaQuadrado;
+echo "area quadrado: ", areaQuadrado (10), "\n";
 
-use function conversao\euroParaReal;
-echo "Euro Para Real: ", europaraReal (10, 5.85);
+use function geometria\areaRetangulo;
+echo "area retangulo: ", areaRetangulo (50, 20),"\n";
 
-use function conversao\pesoParaReal;
-echo "Peso Para Real: ", pesoparaReal (10, 0.0035);
+use function geometria\areaTriangulo;
+echo "area triangulo: ", areaTriangulo (10, 35),"\n";
 
-use function conversao\libraParaReal;
-echo "Libra Para Real: ", libraparaReal (10, 6.75 );
+use function geometria\areaCirculo;
+echo "area circulo: ", areaCirculo (4,3.14),"\n";
 
-use function conversao\ieneParaReal;
-echo "Iene Para Real: ", ieneparaReal (10, 0.031);
+use function geometria\areaTrapezio;
+echo "area trapezio: ", areaTrapezio (30, 20, 10 ),"\n";
 
 
 
